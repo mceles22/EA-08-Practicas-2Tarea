@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p{
+    background: burlywood;
+    font: Verdana;
+    text-align: center;
+    font-size: 20px;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: burlywood;
+    color: brown;
+}
+
+div{
+    background-image: url(Imagen/Home.jpeg);
+    height: 1000px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+div p{
+    font-size: 40px;
+}
+
+div h1{
+    font-size: 80px;
+    padding: 20px 0;
+}
+
+
+
+nav{
+    text-align: right;
+}
+/*container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid beige;
+}
+
+container.div{
+    flex: 1;
+}*/
+
+aside{
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    padding-right: 10px;
+    float: left;
+    font-style: italic;
+    background-color: papayawhip;
+}
+
+section{
+    display: flex;
+    border: 5px solid bisque;
+    float: center;
+}
+
+figure{
+    align-content: center;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Open Sans';
+}
+

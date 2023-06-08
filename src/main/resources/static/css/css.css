@@ -1,0 +1,66 @@
+p{
+    background: burlywood;
+    font: Verdana;
+    text-align: center;
+    font-size: 20px;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: burlywood;
+    color: brown;
+}
+
+nav{
+    text-align: right;
+}
+
+aside{
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    padding-right: 10px;
+    float: left;
+    font-style: italic;
+    background-color: papayawhip;
+}
+
+section{
+    display: flex;
+    border: 5px solid bisque;
+    float: center;
+}
+
+figure{
+    align-content: center;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Open Sans';
+}
+
+h2{
+    color: brown;
+}
+

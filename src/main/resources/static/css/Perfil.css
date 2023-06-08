@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: burlywood;
+    color: brown;
+}
+
+div{
+    background-image: url(Imagen/Fondo.jpeg);
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+}
+
+nav{
+    text-align: right;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+p{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+}
+
+.descripción h3{
+    padding: 10px;
+    color: wheat;
+    font-size: 16px;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Open Sans';
+}
